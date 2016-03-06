@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1029</width>
+    <height>713</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>RESTAURENT MENU</string>
+  </property>
+  <widget class="QSpinBox" name="sp2">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>180</y>
+     <width>65</width>
+     <height>33</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="C2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>180</y>
+     <width>311</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Add Items</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tea</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Lime Juice</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Vada</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shavarma</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chappathi</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Parotta</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dosa</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chicken Fry</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Biriyani</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="C1">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>120</y>
+     <width>311</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Add Items</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tea</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Lime Juice</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Vada</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shavarma</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chappathi</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Parotta</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dosa</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chicken Fry</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Biriyani</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QCommandLinkButton" name="button">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>460</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PLACE ORDER</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="sp5">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>360</y>
+     <width>65</width>
+     <height>33</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="sp4">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>300</y>
+     <width>65</width>
+     <height>33</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="C5">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>360</y>
+     <width>311</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Add Items</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tea</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Lime Juice</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Vada</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shavarma</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chappathi</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Parotta</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dosa</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chicken Fry</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Biriyani</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="C4">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>300</y>
+     <width>311</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Add Items</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tea</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Lime Juice</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Vada</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shavarma</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chappathi</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Parotta</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dosa</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chicken Fry</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Biriyani</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>80</y>
+     <width>65</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ITEM</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="C3">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>240</y>
+     <width>311</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Add Items</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tea</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Lime Juice</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Vada</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shavarma</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chappathi</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Parotta</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dosa</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Chicken Fry</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Biriyani</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QSpinBox" name="sp1">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>120</y>
+     <width>65</width>
+     <height>33</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>80</y>
+     <width>65</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>QTY</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="sp3">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>240</y>
+     <width>65</width>
+     <height>33</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
